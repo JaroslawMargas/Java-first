@@ -17,10 +17,10 @@ public class TypeOperator {
         return (three * 100) + (two * 10) + one;
     }
 
-    public int countDesks(int[] array){
+    public int countDesks(int[] array) {
         int sum = 0;
-        for (int itm:array){
-            sum +=  itm/2 +itm%2;
+        for (int itm : array) {
+            sum += itm / 2 + itm % 2;
         }
         return sum;
     }
