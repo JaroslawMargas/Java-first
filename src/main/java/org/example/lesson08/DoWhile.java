@@ -26,7 +26,7 @@ public class DoWhile {
         double add;
         if (start != expected) {
             do {
-                add = start * percent/100;
+                add = start * percent / 100;
                 cashNow = start + add;
                 start = cashNow;
                 years++;

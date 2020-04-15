@@ -5,7 +5,7 @@ public class Second {
     public int number = 1;
     private int hiddenNumber = 42;
 
-    public void doPrint(){
+    public void doPrint() {
         System.out.println("Second");
     }
 

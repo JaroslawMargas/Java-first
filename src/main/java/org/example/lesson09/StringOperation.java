@@ -12,12 +12,13 @@ public class StringOperation {
             for (int i = 0; i < str.length(); i++) {
                 result = str.charAt(i) == mySimple.charAt(i + index);
             }
-        }else {
+        } else {
             result = true;
         }
         return result;
     }
-    public static String convertDate(String str){
+
+    public static String convertDate(String str) {
         String[] words = str.split("-");
         String result;
         result = words[1] + "/" + words[2] + "/" + words[0];

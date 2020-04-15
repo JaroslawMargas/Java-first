@@ -11,8 +11,8 @@ public class StringOperation {
     }
 
     public static boolean compareTwoStringSpace(String textOne, String textTwo) {
-        textOne = textOne.replace(" ","");
-        textTwo =  textTwo.replace(" ","");
+        textOne = textOne.replace(" ", "");
+        textTwo = textTwo.replace(" ", "");
         return textOne.equals(textTwo);
     }
 }

@@ -3,13 +3,14 @@ package org.example.lesson01;
 import org.example.lesson02.CezarCipher;
 import org.example.lesson03.InputScanner;
 import org.example.lesson04.TypeOperator;
-import java.util.Scanner;
+
 import java.util.List;
+import java.util.Scanner;
 
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hello Jonh !");
 
@@ -37,11 +38,11 @@ public class Main {
         for (String s : list) System.out.println(s);
 
         TypeOperator typeTest = new TypeOperator();
-        System.out.println("Result operation is: "+typeTest.getLastDigit( 12241));
+        System.out.println("Result operation is: " + typeTest.getLastDigit(12241));
 
         System.out.println("Enter int to count tens");
         int numToTens = scanner.nextInt();
-        System.out.println("Tens is: "+typeTest.getTens( numToTens));
+        System.out.println("Tens is: " + typeTest.getTens(numToTens));
 
         System.out.println("Enter int(3) to reverse first and last digit");
         int numToRev = scanner.nextInt();
@@ -51,7 +52,7 @@ public class Main {
         int classOne = scanner.nextInt();
         int classTwo = scanner.nextInt();
         int classThree = scanner.nextInt();
-        int[] students = {classOne,classTwo,classThree};
+        int[] students = {classOne, classTwo, classThree};
         System.out.println(typeTest.countDesks(students));
 
 
