@@ -1,9 +1,9 @@
 package org.example.lesson03;
 
-import java.util.Collections;
-import java.util.Scanner;
-import java.util.List;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Scanner;
 
 public class InputScanner {
     public Scanner inputScanner = new Scanner(System.in);
