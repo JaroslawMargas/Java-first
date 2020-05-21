@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class InputScanner {
-    public Scanner inputScanner = new Scanner(System.in);
+    public final Scanner inputScanner = new Scanner(System.in);
 
     public String getAndPrint() {
         return inputScanner.nextLine();

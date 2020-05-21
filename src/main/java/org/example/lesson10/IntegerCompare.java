@@ -14,4 +14,8 @@ public class IntegerCompare {
     public static int signBetter(int number) {
         return Integer.compare(number, 0);
     }
+
+
+
 }
+

@@ -2,7 +2,7 @@ package org.example.lesson01;
 
 public class Beer {
 
-    private String name;
+    private final String name;
 
     public Beer(String name) {
         this.name = name;
