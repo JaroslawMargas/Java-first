@@ -12,5 +12,10 @@ public class Array {
 //        char[] array4 = new char[10_000_000_000_000];
         char[] array5 = new char[-1];
 
+        int[][] ticTacToeBoard = new int[3][];
+        ticTacToeBoard[0] = new int[2];
+        ticTacToeBoard[1] = new int[3];
+        ticTacToeBoard[2] = new int[2];
+
     }
 }

@@ -9,13 +9,13 @@ class DoWhileTest {
     @Test
     void collatzOneTest() {
         List<Integer> expected = List.of(1);
-        assertEquals(expected, DoWhile.collatz(1));
+        assertEquals(expected, Collatz.collatz(1));
     }
 
     @Test
     void collatzListTest() {
         List<Integer> expected = List.of(17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1);
-        assertEquals(expected, DoWhile.collatz(17));
+        assertEquals(expected, Collatz.collatz(17));
     }
 
     @Test
