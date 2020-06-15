@@ -9,8 +9,8 @@ public class CommandLineArg {
          config-path=/something/there
          config-format=json
          */
-        for(int i=0 ; i<args.length ; i+=2){
-            System.out.println(args[i]+"="+args[i+1]);
+        for (int i = 0; i < args.length; i += 2) {
+            System.out.println(args[i] + "=" + args[i + 1]);
         }
     }
 }
