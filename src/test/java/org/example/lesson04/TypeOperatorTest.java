@@ -23,6 +23,8 @@ class TypeOperatorTest {
 
     @Test
     void countDesks() {
+        int[] students = {1,2,3};
+        assertEquals(4,TypeOperator.countDesks(students));
     }
 
     @Test
