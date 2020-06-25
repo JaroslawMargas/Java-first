@@ -2,6 +2,7 @@ package org.example.lesson06;
 
 public class StringOperation {
     public static long getLengthRange(String str, int start, int stop) {
+        // returns the length of the string at the start and end position
         String subs = str.substring(start, stop);
         return subs.trim().length();
     }
