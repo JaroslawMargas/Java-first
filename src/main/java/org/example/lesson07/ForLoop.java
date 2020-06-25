@@ -49,6 +49,14 @@ public class ForLoop {
     }
 
     public static int maxDivFour(int numQuantity) {
+        /*
+        There is a sequence of natural numbers, they do not exceed 30000.
+        Find its maximum element divisible by 4. As input,
+        the program first gets the number of elements in the sequence,
+        and then the elements themselves. There is always an element divisible by 4 in the sequence.
+        The number of elements does not exceed 1000.
+        The program is to print the single number – the max element of the sequence divisible by 4.
+         */
         Scanner scanner = new Scanner(System.in);
         int max = 0;
         for (int i = 0; i < numQuantity; i++) {
