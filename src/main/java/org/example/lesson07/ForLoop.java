@@ -75,9 +75,9 @@ public class ForLoop {
         which are divisible by 3.
 
         In the example below, the arithmetic average is calculated for the numbers on the interval
-        [−5;12]
+        [-5,12]
 
-        Total numbers divisible by 3 on this interval 6 : −3,0,3,6,9,12
+        Total numbers divisible by 3 on this interval 6:-3,0,3,6,9,12
         Their arithmetic average equals to 4.5
 
         The program input contains intervals, which always contain at least one number, which is divisible by 3.
