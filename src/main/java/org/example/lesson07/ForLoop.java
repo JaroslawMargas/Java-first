@@ -69,6 +69,22 @@ public class ForLoop {
     }
 
     public static float countAvgDivThree(int start, int stop) {
+        /*
+        Write a program that reads two numbers a  and b from the keyboard and calculates and outputs
+        to the console the arithmetic average of all numbers from the interval [a;b],
+        which are divisible by 3.
+
+        In the example below, the arithmetic average is calculated for the numbers on the interval
+        [−5;12]
+
+        Total numbers divisible by 3 on this interval 6 : −3,0,3,6,9,12
+        Their arithmetic average equals to 4.5
+
+        The program input contains intervals, which always contain at least one number, which is divisible by 3.
+
+        Remember that int type cannot contain fractions. Use double variable to store the precise
+        result of the division.
+         */
         int count = 0;
         int sum = 0;
         if (stop > start) {
