@@ -17,5 +17,7 @@ class CheckSumTest {
 
     @Test
     void checkNumBetween() {
+        // a >= b && a <= c || a >= c && a <= b;
+        assertTrue(CheckSum.checkNumBetween(3,4,1));
     }
 }
