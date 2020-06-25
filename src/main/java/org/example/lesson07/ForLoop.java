@@ -4,6 +4,15 @@ import java.util.Scanner;
 
 public class ForLoop {
     public static void fizzBuzz(int start, int stop) {
+        /*
+        Fizz Buzz is a classic programming problem. Here is its slightly modified version.
+        Write a program that takes the input of two integers:
+        the beginning and the end of the interval (both numbers belong to the interval).
+        The program is to output the numbers from this interval, but if the number is divisible by 3,
+        you should output Fizz instead of it, if the number is divisible by 5, output Buzz,
+        and if it is divisible both by 3 and by 5, output FizzBuzz.
+        Output each number or word on a separate line.
+         */
         if (stop > start) {
             for (; start <= stop; start++) {
                 if (start % 15 == 0) {
