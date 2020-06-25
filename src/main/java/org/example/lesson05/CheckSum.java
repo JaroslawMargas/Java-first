@@ -1,7 +1,8 @@
 package org.example.lesson05;
 
 public class CheckSum {
-    public boolean checkPairForSum(int a, int b, int c, int expectedSum) {
+    public static boolean checkPairForSum(int a, int b, int c, int expectedSum) {
+        // check if its possible crate a pair from numbers equals expected sum
         return a + b == expectedSum || a + c == expectedSum || b + c == expectedSum;
     }
 
