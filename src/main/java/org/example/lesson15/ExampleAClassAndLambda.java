@@ -1,4 +1,4 @@
-package org.example.Lesson15;
+package org.example.lesson15;
 
 import java.util.ArrayList;
 import java.util.Arrays;

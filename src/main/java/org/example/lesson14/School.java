@@ -1,4 +1,4 @@
-package org.example.Lesson14;
+package org.example.lesson14;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
